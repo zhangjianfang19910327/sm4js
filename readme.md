@@ -30,7 +30,7 @@ like this:
 <script src="typearray.js"></script>
 <script src="sm4js.min.js"></script>
 ```
-## usege 
+## useage 
 ```js
 var sm4Config = {
     key: 'JeF8U9wHFOMfs2Y8',
