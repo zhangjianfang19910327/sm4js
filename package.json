@@ -1,0 +1,31 @@
+{
+  "name": "sm4js",
+  "version": "0.0.1",
+  "description": "An implementation of the browser and server side of the sm4 algorithm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pro": "rollup -c rollup.config.pro.js",
+    "dev": "rollup -c "
+  },
+  "keywords": [
+    "sm4",
+    "js",
+    "node",
+    "browser"
+  ],
+  "author": "zhangjianfang",
+  "license": "ISC",
+  "dependencies": {
+    "base64-js": "^1.3.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.0",
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-external-helpers": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
+    "@rollup/plugin-node-resolve": "^7.0.0",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
