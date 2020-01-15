@@ -10,24 +10,26 @@ npm install sm4js
 
 For use in web browsers do:
 ```js
+<script src="base64-js.min.js"></script>
 <script src="sm4js.min.js"></script>
 ```
 ## config
 sm4js has four  configuration parameters, key, mode,cipherType and iv.
 * key -encrypt/decypt main key;A string of length 12;
 * mode -optional; can be 'cbc' or 'ecb';default ecb;
-* iv -optional; when use cbc mode, it's �necessary;default is null;
+* iv -optional; when use cbc mode, it's necessary;default is null;
 * cipherType - optional; this is the cipher data's type; Can be 'base64' or 'text';default is base64;
 ## methods
 sm4js has tow exposed functions, encrypt and decrypt, which both take a single argument.
 * encrypt:Takes a  json string and returns a base64 string;
-* encrypt:Takes a  base64 string and returns a json string;
+* decrypt:Takes a  base64 string and returns a json string;
 ## compatibility
 This plugin is native to ie10+ and you should add [polyfill](https://github.com/inexorabletash/polyfill/blob/master/typedarray.js) if you want to be compatible with ie9;
 like this:
 
 ```js
 <script src="typearray.js"></script>
+<script src="base64-js.min.js"></script>
 <script src="sm4js.min.js"></script>
 ```
 ## useage 
