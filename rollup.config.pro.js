@@ -5,7 +5,7 @@ import { uglify } from "rollup-plugin-uglify";
 export default {
     input: 'index.js',
     output: {
-      file: 'sm4js.min.js',
+      file: './lib/sm4js.min.js',
       name:"Sm4js",
       banner:"/*\r\n  by zjf(npm:xishangrucai) \r\n To contact me:13691460209@163.com \r\n*/",
       format: 'umd'

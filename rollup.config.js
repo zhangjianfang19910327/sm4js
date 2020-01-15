@@ -4,7 +4,7 @@ import babel from 'rollup-plugin-babel';
 export default {
     input: 'index.js',
     output: {
-      file: 'sm4js.js',
+      file: './lib/sm4js.js',
       name:"Sm4js",
       banner:"/*\r\n  by zjf(npm:xishangrucai) \r\n To contact me:13691460209@163.com \r\n*/",
       format: 'umd'

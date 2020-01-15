@@ -1,4 +1,4 @@
-import {Sm4js} from './lib/Sm4js';
+import {Sm4js} from './src/sm4js';
 export default Sm4js;
   
   

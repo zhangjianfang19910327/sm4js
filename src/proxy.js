@@ -1,5 +1,4 @@
-var base64js ;
-typeof window == 'object'? base64js=window.base64js:base64js = require('base64-js')
+import base64js from 'base64-js';
 class Proxy{
     constructor(config){
 
